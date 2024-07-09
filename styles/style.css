@@ -1,0 +1,102 @@
+.azeret-mono-normal {
+        font-family: "Azeret Mono", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+}
+
+/* shared style */
+*{
+    margin: 0;
+    padding: 0;
+}
+.color1{
+    color:#0D1321 ;
+}
+.margin-padding{
+    margin-bottom: 32px;
+    padding: 48px;
+}
+/* style banner */
+.banner{
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 582px;
+    margin: 26px 221px 46px 221px;
+    background-image: url(../images/assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 652px;
+    margin: 0 auto;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 582px;
+    margin: 26px 221px 46px 221px;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 900px;
+    margin-top: 32px;
+    text-align: center;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+/* style for button0 */
+.btn{
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600px;
+    color:rgba(255, 255, 255, 1) ;
+    background-color: #0D1321;
+    margin-top: 32px;
+    margin-bottom: 45px;
+    padding: 21px 24px 21px 24px;
+
+}
+
+/* dream lavel style */
+.why-do-devoloper{
+    margin: 74px 152px 90px 148px;
+    padding:80px 97px;
+    background-color:rgba(13, 19, 33, 0.02);
+}
+
+.devolopment-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:80px 87px;
+}
+.web-title{
+    font-size: 32px;
+    font-weight: 900px;
+    color: #0D1321;
+    text-align: center;
+}
+.web-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0D1321;
+    margin: 24px 47px 48px;
+    text-align: center;
+}
+.dream-lavel{
+    display: flex;
+    gap:98.83px ;
+    
+}
+.dream-lave3{
+    padding: 48px;
+}
