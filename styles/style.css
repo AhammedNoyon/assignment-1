@@ -240,3 +240,25 @@
     font-weight: 600;
     color: rgba(13, 19, 33, 1);
 }
+
+/* skill style */
+.skills{
+    max-width: 1140px;
+    /* min-height: 460px; */
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 151px;
+
+}
+.section-title{
+    font-size: 32px;
+    font-weight: 900;
+    color:rgba(13, 19, 33, 1);
+    text-align: center;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 14px;
+}
