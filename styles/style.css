@@ -44,8 +44,8 @@
     align-items: center;
     /* height: 582px; */
     min-height: 652px;
-    max-width: 1440px;
-    margin: 26px 221px 46px 221px;
+    /* max-width: 1440px; */
+    /* margin: 26px 221px 46px 221px; */
     background-image: url(../images/assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -212,12 +212,10 @@
     padding:40px;
 }
 
-/* main er  footer style */
+/* support section style */
 .main-footer{
     max-width: 1140px;
-    /* width: 1140px; */
     min-height: 313px;
-    /* margin: 50px 150px 80px 150px; */
     margin: 0 auto;
     margin-top: 111px;
     /* margin-bottom: 50px; */
@@ -229,6 +227,7 @@
     text-align: center;
     padding: 64px 48px;
     background-image: url(../images/assets/handshake.jpg);
+    background-color: rgba(0,0,0,0.5);
     background-repeat: no-repeat;
     background-position: center;
     /* background-size: cover; */
