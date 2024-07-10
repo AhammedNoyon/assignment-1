@@ -25,7 +25,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 582px;
+    /* height: 582px; */
+    min-height: 652px;
+    max-width: 1440px;
     margin: 26px 221px 46px 221px;
     background-image: url(../images/assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -38,7 +40,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 582px;
+    /* height: 582px; */
+    min-height: 581px;
+    max-width: 998px;
     margin: 26px 221px 46px 221px;
 }
 .banner-title{
@@ -123,6 +127,7 @@
 }
 
 /* my inspiration section style */
+
 .inspiration-title{
     display: flex;
     flex-direction: column;
@@ -148,35 +153,38 @@
     margin-bottom: 48px;
 }
 .youtube-video{
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 1076px;
     height: 550px;
     border-radius:16px;
     margin: 0 auto;
+    border: 2px solid rgba(13, 19, 33, 0.2) ;
+    padding: 32px;
 
 }
 
 /* main er  footer style */
 .main-footer{
-    width: 1140px;
-    /* border: 2px solid red; */
-    min-height: 600px;
+    max-width: 1140px;
+    /* width: 1140px; */
+    min-height: 313px;
     /* margin: 50px 150px 80px 150px; */
     margin: 0 auto;
-    margin-top: 48px;
-    margin-bottom: 50px;
-    background-image: url(../images/assets/handshake.jpg);
+    margin-top: 49px;
+    /* margin-bottom: 50px; */
     border-radius: 16px;
-}
-
-
-.main-footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 64px 48px;
+    background-image: url(../images/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
 }
 .footer-title{
     font-size: 32px;
@@ -209,4 +217,12 @@
 }
 
 /* website footer style */
+.web-footer{
 
+    
+
+}
+.web-foot-logo{
+    display: flex;
+    display: inline;
+}
